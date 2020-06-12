@@ -4,8 +4,8 @@ body {
 }
 
 .header {
-    background-color: #1F1F1F;
-    color: #553100;
+    background-color: #343A40;
+    /* color: #553100; */
     width: 100%;
     padding: 5px;
     border-bottom: 1px groove black;
@@ -14,15 +14,39 @@ body {
 h2 {
   display: inline-block;
   margin: 10px;
+  color: #FEFEFE;
 }
 
 h3 {
   display: inline-block;
   margin: 10px;
+  color: #FEFEFE;
 }
+
+#loginAtTheTop{
+    color: #CCCECF;
+}
+
 
 .search {
     float: right;
+}
+
+#searchButton{
+    background-color: #343A40;
+    border-radius: 2px;
+    border-color: #FFC107;
+    border: 1px 2px;
+    color: #FFC107;
+    padding: 1px 2px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    margin: 4px 2px;
+    box-sizing: content-box;
+    height: 20px;
+    width: 50px;
 }
 
 .login {
@@ -52,6 +76,24 @@ h3 {
 .main {
     display: grid;
     grid-template-columns: 1fr 500px 1fr;
+    grid-column: 2;
+    text-align: center;
+}
+#loginButton{
+    background-color: #007BFF;
+    border-radius: 8px;
+    border: none;
+    color: white;
+    padding: 13px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+}
+
+.label {
+    width: 8000px;
     grid-column: 2;    
 }
 
