@@ -77,7 +77,7 @@ h3 {
     display: grid;
     grid-template-columns: 1fr 500px 1fr;
     grid-column: 2;
-    text-align: center;
+/*     text-align: center; */
 }
 #loginButton{
     background-color: #007BFF;
