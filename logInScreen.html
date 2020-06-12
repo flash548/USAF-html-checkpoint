@@ -4,6 +4,7 @@
   <meta charset="utf-8">
   <title>GMDB Login</title>
   <link rel="stylesheet" href="./style.css">
+  <script src='app.js' language='JavaScript'></script>
 </head>
 <body>
     <div id='header' class='header'>
@@ -19,12 +20,12 @@
     </div>
     
     <div id='main' class='main'>
-        <h1 class='login'>Login</h1><br>
+        <h1 id='loginLabel' class='login'>Login</h1><br>
         <form id='form' class='login'>
             <label for='email' class='label'>Email:</label><br>
-            <input type='email' id='email' class='email'><br>
+                <input type='email' id='email' class='email' width=800><br>
             <label for='password' class='label'>Password:</label><br>
-            <input type='password' id='password' class='password'><br>
+                <input type='password' id='password' class='password' width=500><br>
             <button type='button' id='loginButton' class='loginButton'>Login</button>        
         </form>
     </div>
